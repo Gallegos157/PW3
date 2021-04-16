@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Práctica | Calculadora </title>
+<meta charset="utf-8">
+
+</head>
+
+<body>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+<meta name="description" content="Mi primer pagina web ">
+<meta name="author" content="Estefani Gallegos">
+<meta name="keywords" content="Proramación Web">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap.style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Calculadora </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="lectura.html">Lectura </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="linet.html"> Linea  </a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link " href="indetarea.html"> Index  </a>
+    </li>
+    
+  </ul>
+
+
+  <br>
+  <br>
+  <br>
+	<h1>CALCULADORA</h1>
+	<h2>Programación Web</h2>
+	<form id="miclal"  name="" method="post">
+		<label>valor 1 </label>
+		<input type="number" name="" id="valor1" autofocus=""  placeholder="inserte un número">
+		<button onclick="limpiar();"> C</button>
+
+		<br>
+		<br>
+		<label>valor2 </label>
+		<input type="number" name="" id="valor2" placeholder="inserte otro valor ">
+
+		<br>
+		<br>
+		<button type="button" onclick="sumar();">+</button>
+		<button type="button" onclick="restar();">-</button>
+		<button type="button" onclick="multiplicar();">x</button>
+		<button type="button" onclick="dividir();">/</button>
+										
+		<p>Resultado: <spam id="el-resultado"></spam></p>
+		
+
+	</form>
+	<script type="text/javascript"  src="js/funciones.js"></script>
+</body>
+</html>
